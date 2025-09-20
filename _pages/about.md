@@ -113,7 +113,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 **[GeoVLA: Enpowering 3D Representations in Vision-Language-Action Models](https://arxiv.org/pdf/2508.09071)**
 
-Lin Sun\*, Bin Xie\*, Yingfei Liu, **Hao Shi**, Tiancai Wang, Jiale Cao#✉
+Lin Sun\*, Bin Xie\*, Yingfei Liu, **Hao Shi**, Tiancai Wang, Jiale Cao✉
 - GeoVLA is a framework that bridges 2D semantics and 3D geometry for VLA. By encoding geometric embeddings with a dual-stream design and leveraging a Mixture-of-Experts 3D-Aware Action Expert, it achieves robustness across diverse camera views, object heights, and sizes.
 </div>
 </div>

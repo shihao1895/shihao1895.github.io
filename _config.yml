@@ -9,10 +9,10 @@
 title                    : "Hao Shi (石昊)"
 description              : "Department of Automation, Tsinghua University"
 repository               : "shihao1895/shihao1895.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  "G-VB7KHTNEFW" # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification :  "KZWp9lsh4pwuLCw3JA35jmZAqWLLWjFruc7TaECKzOU" # get google_site_verification from https://search.google.com/search-console/about
@@ -163,6 +163,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-url: "https://shihao1895.github.io"
