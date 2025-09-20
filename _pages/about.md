@@ -25,7 +25,9 @@ My research interests lie primarily in **Embodied AI, Robot Learning, VLA, and 3
 
 <span style="color:red;">
 I am looking for <b>Ph.D. opportunities for 2026 Fall in Embodied AI</b>. 
-I would be truly thankful for any advice, recommendations, or opportunities. You may kindly reach me at <a href="mailto:shihao1895@gmail.com">shihao1895@gmail.com</a> or via WeChat (u1s11024)
+I would be truly thankful for any advice, recommendations, or opportunities. 
+Here is my <a href="images/THU_Hao_Shi_CV.pdf" target="_blank">CV.</a>
+You may kindly reach me at <a href="mailto:shihao1895@gmail.com">shihao1895@gmail.com</a> or via WeChat (u1s11024)
 </span>
 
 
@@ -52,11 +54,11 @@ I would be truly thankful for any advice, recommendations, or opportunities. You
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/papers/memoryvla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for General Robotic Manipulation](https://shihao1895.github.io/MemoryVLA)**
+**[MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](https://shihao1895.github.io/MemoryVLA)**
 
 **Hao Shi**, Bin Xie, Yingfei Liu, Lin Sun, Fengrong Liu, Tiancai Wang, Erjin Zhou, Haoqiang Fan, Xiangyu Zhang, Gao Huang✉
 <!-- [Paper](https://arxiv.org/pdf/2508.19236)  |  [Project](https://shihao1895.github.io/MemoryVLA) -->
-- MemoryVLA is a Cognition-Memory-Action framework for general robotic manipulation inspired by human memory systems. It builds a hippocampal-like Perceptual-Cognitive Memory Bank to capture the temporal dependencies essential for current decision-making, enabling long-horizon, temporally aware action generation.
+- MemoryVLA is a Cognition-Memory-Action framework for robotic manipulation inspired by human memory systems. It builds a hippocampal-like perceptual-cognitive memory to capture the temporal dependencies essential for current decision-making, enabling long-horizon, temporally aware action generation.
 </div>
 </div>
 
@@ -78,7 +80,7 @@ Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Wen
 **[SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation]()**
 
 **Hao Shi**, Bin Xie, Yingfei Liu, Yang Yue, Tiancai Wang, Haoqiang Fan, Xiangyu Zhang, Gao Huang✉
-- SpatialActor is a disentangled framework for robust robotic manipulation. It decouples perception into complementary high-level geometry from fine-grained but noisy raw depth and coarse but robust expert priors, along with low-level spatial cues and visual semantics.
+- SpatialActor is a disentangled framework for robust robotic manipulation. It decouples perception into complementary high-level geometry from fine-grained but noisy raw depth and coarse but robust depth expert priors, along with low-level spatial cues and appearance semantics.
 </div>
 </div>
 
@@ -101,7 +103,7 @@ Henry Zheng\*, **Hao Shi\***, Yong Xien Chng, Rui Huang, Zanlin Ni, Tianyi Tan, 
 **[Open Compound Domain Adaptation with Object Style Compensation for Semantic Segmentation](https://proceedings.neurips.cc/paper_files/paper/2023/file/c74a3a6f44a44b204e26b1a6d7fe4a66-Paper-Conference.pdf)**
 
 Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, Di Lin✉
-- We propose Object Style Compensation for open compound domain adaptation. It builds an object-level discrepancy memory bank to capture fine-grained source–target domain gaps and compensates target-domain features to align with the source distribution, enabling cross-domain semantic segmentation. 
+- We propose object style compensation for open compound domain adaptation. It builds an object-level discrepancy memory bank to capture fine-grained source–target domain gaps and compensates target features to align with source distribution, enabling cross-domain segmentation. 
 </div>
 </div>
 
