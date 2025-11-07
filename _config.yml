@@ -27,7 +27,7 @@ author:
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   pubmed           : 
-  googlescholar    : ""
+  googlescholar    : "https://scholar.google.com/citations?user=tSK_CIAAAAAJ"
   email            : "shihao1895@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : ""
+  github           : "https://github.com/shihao1895"
   google_plus      :
   keybase          :
   instagram        :
