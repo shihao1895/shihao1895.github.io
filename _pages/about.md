@@ -71,7 +71,7 @@ Dexbotic Team
 
 **[DenseGrounding: Improving Dense Language-Vision Semantics for Ego-centric 3D Visual Grounding](https://arxiv.org/pdf/2505.04965)**
 
-Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Weng, Zhongchao Shi, Gao Huang#✉
+Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Weng, Zhongchao Shi, Gao Huang✉
 
 *: equal contribution, ✉: corresponding author.
 
