@@ -8,6 +8,49 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<style>
+.edu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.edu img {
+  width: 110px;
+  margin-right: 16px;
+}
+.edu div {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.edu strong {
+  font-weight: 600;
+}
+.edu a {
+  color: #1a4bb3;
+  text-decoration: none;
+}
+.edu a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<style>
+.badge {
+  font-size: 13px !important;
+}
+</style>
+
+
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -19,25 +62,48 @@ redirect_from:
 
 My name is **Hao Shi (石昊)**, a third-year Master's student in the Department of Automation at Tsinghua University, in a joint program with MEGVII Research, advised by Prof. [Gao Huang](https://scholar.google.com/citations?user=-P9LwcgAAAAJ) and [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ), and I also work closely with [Tiancai Wang](https://scholar.google.com/citations?user=YI0sRroAAAAJ). 
 
-Previously, I received my Bachelor's degree from the College of Intelligence and Computing at Tianjin University in 2023, advised by Prof. [Di Lin](https://dilincv.github.io). 
+Before that, I received my Bachelor's degree in Computer Science from Tianjin University in 2023, advised by Prof. [Di Lin](https://dilincv.github.io). 
 
-My research interests lie primarily in **Embodied AI, Robot Learning, VLA, and 3D Perception**. I am dedicated to exploring foundation models for general robotic systems. 
+My research focuses on **Embodied AI, Robot Learning, VLA, and 3D Perception**, aiming to build foundation models for general robotic systems. 
 
 I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised by Prof. [Ping Luo](https://scholar.google.com/citations?user=aXdjxb4AAAAJ) in Fall 2026.
+
 
 <!-- # 🔥 News
 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
+
 # 📖 Education
-- *2023.09 - 2026.06 (expected)*, M.Eng. in AI, Department of Automation, Tsinghua University, Beijing.
-  - Advisors: Prof. [Gao Huang](https://scholar.google.com/citations?user=-P9LwcgAAAAJ) and [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ)
-  - GPA: 3.8 / 4.0
-- *2020.06 - 2023.06*, B.Eng. in Computer Science, College of Intelligence and Computing, Tianjin University. 
-  - Academic advisor: Prof. [Di Lin](https://dilincv.github.io)
-  - GPA: 3.81 / 4.0, 91.2 / 100
-- *2019.09 - 2020.06*, B.Eng. student in Materials Science, School of Materials Science and Engineering, Tianjin University. 
+<div class="edu">
+  <img src="images/thu_logo.png" alt="Tsinghua University">
+  <div>
+    <strong>2023.09 – 2026.06 (expected)</strong><br>
+    M.Eng. in AI, Department of Automation, Tsinghua University, Beijing.<br>
+    Advisors: Prof. <a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ">Gao Huang</a> and <a href="https://scholar.google.com/citations?user=yuB-cfoAAAAJ">Xiangyu Zhang</a><br>
+    GPA: 3.8 / 4.0
+  </div>
+</div>
+
+<div class="edu">
+  <img src="images/tju_logo.png" alt="Tianjin University">
+  <div>
+    <strong>2020.06 – 2023.06</strong><br>
+    B.Eng. in Computer Science, Tianjin University.<br>
+    Academic advisor: Prof. <a href="https://dilincv.github.io">Di Lin</a><br>
+    GPA: 3.81 / 4.0, 91.2 / 100
+  </div>
+</div>
+
+<div class="edu">
+  <img src="images/tju_logo.png" alt="Tianjin University">
+  <div>
+    <strong>2019.09 – 2020.06</strong><br>
+    B.Eng. student in Materials Science, Tianjin University.
+  </div>
+</div>
+
 
 # 📝 Research
 ## Selected Works
@@ -54,7 +120,7 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Teport 2025</div><img src='images/papers/dexbotic.jpeg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report 2025</div><img src='images/papers/dexbotic.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Dexbotic: Open-Source Vision-Language-Action Toolbox](https://dexbotic.com)**
@@ -62,6 +128,17 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 Dexbotic Team
 
 - Dexbotic is an open-source VLA toolbox for embodied AI research (similar to MMDetection). It provides a unified and experiment-centric codebase that supports multiple mainstream VLA frameworks and benchmarks within a single environment, and offers stronger pretrained models.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 (Oral)</div><img src='images/papers/spatial_actor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation](https://shihao1895.github.io/SpatialActor)**
+
+**Hao Shi**, Bin Xie, Yingfei Liu, Yang Yue, Tiancai Wang, Haoqiang Fan, Xiangyu Zhang, Gao Huang✉
+- SpatialActor is a disentangled framework for robust robotic manipulation. It decouples perception into complementary high-level geometry from fine-grained but noisy raw depth and coarse but robust depth expert priors, along with low-level spatial cues and appearance semantics.
 </div>
 </div>
 
@@ -80,18 +157,7 @@ Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Wen
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/papers/spatial_actor.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation]()**
-
-**Hao Shi**, Bin Xie, Yingfei Liu, Yang Yue, Tiancai Wang, Haoqiang Fan, Xiangyu Zhang, Gao Huang✉
-- SpatialActor is a disentangled framework for robust robotic manipulation. It decouples perception into complementary high-level geometry from fine-grained but noisy raw depth and coarse but robust depth expert priors, along with low-level spatial cues and appearance semantics.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='images/papers/denseg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024 (Oral)</div><img src='images/papers/denseg.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[DenseG: Alleviating Vision-Language Feature Sparsity in Multi-View 3D Visual Grounding](https://opendrivelab.github.io/Challenge%202024/multiview_THU-LenovoAI.pdf)**
@@ -121,7 +187,6 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 
 ## Other Works
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/papers/geovla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -156,9 +221,34 @@ Yani Zhang\*, Dongming Wu\*, **Hao Shi**, Yingfei Liu, Tiancai Wang, Haoqiang Fa
 
 
 # 💻 Internship
-- *2024.08 - now*, MEGVII and Dexmal, Beijing.
-  - Department: Embodied Fundation Research Group.
-  - Mentors: [Tiancai Wang](https://scholar.google.com/citations?user=YI0sRroAAAAJ), [Yingfei Liu](https://scholar.google.com/citations?user=pF9KA1sAAAAJ) and [Bin Xie](https://xb534.github.io).
+<div class="edu">
+  <div style="display: flex; align-items: center; margin-right: 16px;">
+    <img src="images/dexmal_logo.png" alt="Dexmal" style="width: 90px;">
+  </div>
+  <div>
+    <strong>2025.03 – present</strong><br>
+    <strong>Dexmal</strong>, Beijing<br>
+    Department: Embodied Foundation Research Group<br>
+    Mentors:
+    <a href="https://scholar.google.com/citations?user=YI0sRroAAAAJ">Tiancai Wang</a>,
+    <a href="https://scholar.google.com/citations?user=pF9KA1sAAAAJ">Yingfei Liu</a> and
+    <a href="https://xb534.github.io">Bin Xie</a>
+  </div>
+</div>
+
+<div class="edu">
+  <div style="display: flex; align-items: center; margin-right: 16px;">
+    <img src="images/megvii_logo.png" alt="MEGVII" style="width: 90px;">
+  </div>
+  <div>
+    <strong>2024.08 – 2025.02</strong><br>
+    <strong>MEGVII</strong>, Beijing<br>
+    Department: Foundation Model Group<br>
+    Mentors:
+    <a href="https://scholar.google.com/citations?user=YI0sRroAAAAJ">Tiancai Wang</a> and
+    <a href="https://scholar.google.com/citations?user=pF9KA1sAAAAJ">Yingfei Liu</a>
+  </div>
+</div>
 
 
 # 💬 Invited Talks
