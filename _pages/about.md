@@ -108,7 +108,7 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 # 📝 Research
 ## Selected Works
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/papers/memoryvla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/memoryvla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation](https://shihao1895.github.io/MemoryVLA)**
@@ -210,6 +210,7 @@ Yani Zhang\*, Dongming Wu\*, **Hao Shi**, Yingfei Liu, Tiancai Wang, Haoqiang Fa
 
 
 # 🎖 Honors and Awards
+- *2026.01,*  Tsinghua Deng Feng Fund, Tsinghua University. (￥15000)
 - *2025.11,*  Minghong Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (**Top 10% in THU, ￥10000**) 
 - *2024.11,*  Philobiblion Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (**Top 10% in THU, ￥10000**) 
 - *2024.06,*  **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track. (<span style="color:red">1/154 submission, $9000</span>) 
@@ -252,6 +253,7 @@ Yani Zhang\*, Dongming Wu\*, **Hao Shi**, Yingfei Liu, Tiancai Wang, Haoqiang Fa
 
 
 # 💬 Invited Talks
+- *2026.01,*  invited talk about SpatialActor, [AAAI 2026 Main Conference](https://aaai.org/conference/aaai/aaai-26), Singapore
 - *2025.09,*  invited talk about MemoryVLA, [3D视觉工坊](https://mp.weixin.qq.com/s/m6aFuOkS-GTIxwEHro56BQ), Online
 - *2025.09,*  invited talk about MemoryVLA, [具身智能之心](https://mp.weixin.qq.com/s/MNapDpvpS2zQ7zGML08rrA), Online
 - *2024.06,*  invited talk about DenseGrounding, [CVPR 2024 Workshop on Foundation Models for Autonomous Systems](https://opendrivelab.com/cvpr2024/workshop), Seattle
@@ -263,4 +265,3 @@ Reviewer / PC Member:
 - ICLR 2026, ICLR 2025
 - AAAI 2026
 - ICCV 2025
-
