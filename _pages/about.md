@@ -314,7 +314,6 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 Reviewer / PC Member: 
 - ICLR 2026, ICLR 2025
 - ICML 2026
-- NeurIPS 2026
 - CVPR 2026
 - ICCV 2025
 - AAAI 2026
