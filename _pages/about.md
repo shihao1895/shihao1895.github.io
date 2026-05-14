@@ -72,34 +72,6 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 
-# 📖 Education
-<div class="edu">
-  <img src="images/thu_logo.png" alt="Tsinghua University">
-  <div>
-    <strong>2023.09 – 2026.06 (expected)</strong><br>
-    M.Eng. in AI, Department of Automation, Tsinghua University, Beijing.<br>
-    Advisors: Prof. <a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ">Gao Huang</a> and <a href="https://scholar.google.com/citations?user=yuB-cfoAAAAJ">Xiangyu Zhang</a><br>
-  </div>
-</div>
-
-<div class="edu">
-  <img src="images/tju_logo.png" alt="Tianjin University">
-  <div>
-    <strong>2020.06 – 2023.06</strong><br>
-    B.Eng. in Computer Science, Tianjin University.<br>
-    Academic advisor: Prof. <a href="https://dilincv.github.io">Di Lin</a><br>
-  </div>
-</div>
-
-<div class="edu">
-  <img src="images/tju_logo.png" alt="Tianjin University">
-  <div>
-    <strong>2019.09 – 2020.06</strong><br>
-    B.Eng. student in Materials Science, Tianjin University.
-  </div>
-</div>
-
-
 # 📝 Research
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2026</div><img src='images/papers/rmbench.png' alt="sym" width="100%"></div></div>
@@ -128,6 +100,7 @@ Under Review 2026 |
 **Hao Shi**, Bin Xie, Yingfei Liu, Lin Sun, Fengrong Liu, Tiancai Wang, Erjin Zhou, Haoqiang Fan, Xiangyu Zhang, Gao Huang✉
 
 **ICLR 2026** |
+**CVPR 2026 Workshop <span style="color:red">Oral</span>** |
 [Paper](https://arxiv.org/abs/2508.19236) |
 [Code](https://github.com/shihao1895/MemoryVLA) |
 [Homepage](https://shihao1895.github.io/MemoryVLA) |
@@ -233,7 +206,7 @@ Henry Zheng\*, **Hao Shi\***, Yong Xien Chng, Rui Huang, Zanlin Ni, Tianyi Tan, 
 
 *: equal contribution, ✉: corresponding author.
 
-**CVPR 2024 Workshop (Oral)** |
+**CVPR 2024 Workshop <span style="color:red">Oral</span>** |
 [Paper](https://opendrivelab.github.io/Challenge%202024/multiview_THU-LenovoAI.pdf) |
 [Code]()
 - **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track (1/64 teams, 1/154 submissions).
@@ -260,15 +233,53 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 
 # 🎖 Honors and Awards
+- *2026.05,*  Beijing Outstanding Graduate Award. (<span style="color:red">Only 1 Master in Dept. Automation, THU</span>)
+- *2026.05,*  ICML Gold Reviewer Award.
 - *2026.01,*  Tsinghua Deng Feng Fund, Tsinghua University. (￥15000)
 - *2025.11,*  Minghong Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
 - *2024.11,*  Philobiblion Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
 - *2024.06,*  **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track. (<span style="color:red">1/154 submission, $9000</span>) 
 - *2023.11,*  CXMT Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
 - *2023.06,*  Outstanding Bachelor’s Thesis Award, Tianjin University. 
-- *2023.06,*  Excellent Graduate Award, Tianjin University. 
-- *2021.12,*  Ministry of Education-Huawei Intelligent Base Future Stars. 
-- *2021.12,*  Huawei Intelligent Base Scholarship. 
+- *2023.06,*  Outstanding Graduate Award, Tianjin University. 
+- *2021.12,*  Huawei Intelligent Base Scholarship, Ministry of Education-Huawei Intelligent Base Future Stars. 
+
+
+# 📖 Education
+<div class="edu">
+  <img src="images/hku_logo.png" alt="The University of Hong Kong">
+  <div>
+    <strong>2026.09 – 2030.06 (expected)</strong><br>
+    Incoming Ph.D. @ <a href="https://mmlab.hk">MMLAB</a>, HKU, Hong Kong.<br>
+    Advisor: Prof. <a href="https://scholar.google.com/citations?user=aXdjxb4AAAAJ">Ping Luo</a><br>
+  </div>
+</div>
+
+<div class="edu">
+  <img src="images/thu_logo.png" alt="Tsinghua University">
+  <div>
+    <strong>2023.09 – 2026.06 (expected)</strong><br>
+    M.Eng. @ <a href="https://www.leaplab.ai">LeapLab</a>, Tsinghua University, Beijing.<br>
+    Advisors: Prof. <a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ">Gao Huang</a> and Dr. <a href="https://scholar.google.com/citations?user=yuB-cfoAAAAJ">Xiangyu Zhang</a><br>
+  </div>
+</div>
+
+<div class="edu">
+  <img src="images/tju_logo.png" alt="Tianjin University">
+  <div>
+    <strong>2020.06 – 2023.06</strong><br>
+    B.Eng. in Computer Science, Tianjin University.<br>
+    Academic advisor: Prof. <a href="https://scholar.google.com/citations?user=rW0r-hMAAAAJ">Di Lin</a><br>
+  </div>
+</div>
+
+<div class="edu">
+  <img src="images/tju_logo.png" alt="Tianjin University">
+  <div>
+    <strong>2019.09 – 2020.06</strong><br>
+    B.Eng. student in Materials Science, Tianjin University.
+  </div>
+</div>
 
 
 # 💻 Internship
@@ -278,12 +289,11 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
   </div>
   <div>
     <strong>2025.03 – present</strong><br>
-    <strong>Dexmal</strong>, Beijing<br>
-    Department: Embodied Foundation Research Group<br>
+    <strong>Dexmal</strong>, Embodied Foundation Algorithm Group, Beijing<br>
     Mentors:
     <a href="https://scholar.google.com/citations?user=YI0sRroAAAAJ">Tiancai Wang</a>,
     <a href="https://scholar.google.com/citations?user=pF9KA1sAAAAJ">Yingfei Liu</a> and
-    <a href="https://xb534.github.io">Bin Xie</a>
+    <a href="https://scholar.google.com/citations?user=em-nmLIAAAAJ">Bin Xie</a>
   </div>
 </div>
 
@@ -293,8 +303,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
   </div>
   <div>
     <strong>2024.08 – 2025.02</strong><br>
-    <strong>MEGVII</strong>, Beijing<br>
-    Department: Foundation Model Group<br>
+    <strong>MEGVII</strong>, Foundation Model Group, Beijing<br>
     Mentors:
     <a href="https://scholar.google.com/citations?user=YI0sRroAAAAJ">Tiancai Wang</a> and
     <a href="https://scholar.google.com/citations?user=pF9KA1sAAAAJ">Yingfei Liu</a>
@@ -314,6 +323,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 Reviewer / PC Member: 
 - ICLR 2026, ICLR 2025
 - ICML 2026
+- NeurIPS 2026
 - CVPR 2026
 - ICCV 2025
 - AAAI 2026
