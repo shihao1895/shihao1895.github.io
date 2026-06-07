@@ -74,6 +74,24 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 
 # 📝 Research
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2026</div><img src='images/papers/memoryvla_pp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models**
+
+**Hao Shi**, Weiye Li, Bin Xie, Yulin Wang, Renping Zhou, Tiancai Wang, Xiangyu Zhang, Ping Luo, Gao Huang✉
+
+Under Review 2026 |
+[Paper]() |
+[Code](https://github.com/shihao1895/MemoryVLA) |
+[Homepage](https://shihao1895.github.io/MemoryVLA-PP-Web) |
+[Huggingface](https://huggingface.co/collections/shihao1895/memoryvla)
+
+- MemoryVLA++ is the extended journal version of MemoryVLA, advancing it from past-only memory modeling to full temporal modeling with both past memory and future imagination.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2026</div><img src='images/papers/rmbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -106,7 +124,7 @@ Under Review 2026 |
 [Homepage](https://shihao1895.github.io/MemoryVLA) |
 [Huggingface](https://huggingface.co/collections/shihao1895/memoryvla)
 
-- MemoryVLA is among the early works exploring memory in Vision-Language-Action models. Inspired by human memory systems, it builds a hippocampal-like memory to capture the temporal dependencies. It has since been cited by numerous research institutions, including [Physical Intelligence](https://www.pi.website/).
+- MemoryVLA is among the early works exploring memory in Vision-Language-Action models. Inspired by human memory systems, it builds a hippocampal-like memory to capture the temporal dependencies. It has since been <span style="color:red">cited over 100 times</span>, including by [Physical Intelligence](https://www.pi.website/).
 </div>
 </div>
 
@@ -158,7 +176,7 @@ Technical Report 2025 |
 [Homepage](https://dexbotic.com) |
 [Huggingface](https://huggingface.co/collections/Dexmal/dexbotic)
 
-- Dexbotic is an open-source VLA codebase (similar to MMDetection). It unifies multiple mainstream VLA frameworks and benchmarks, provides strong pretrained models, and has garnered nearly 1000 GitHub stars.
+- Dexbotic is an open-source VLA codebase (similar to MMDetection). It unifies multiple mainstream VLA frameworks and benchmarks, provides strong pretrained models, and has garnered <span style="color:red">more than 1000 GitHub stars</span>.
 </div>
 </div>
 
@@ -189,15 +207,16 @@ Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Wen
 *: equal contribution, ✉: corresponding author.
 
 **ICLR 2025** |
+**CVPR 2024 Workshop <span style="color:red">Oral</span>** |
 [Paper](https://arxiv.org/abs/2505.04965) |
-[Code](https://linsun449.github.io/GeoVLA)
+[Code]()
 
-- DenseGrounding is an embodied perception framework for multi-view 3D visual grounding, and it achieved first place on EmbodiedScan.
+- DenseGrounding is an embodied perception framework for multi-view 3D visual grounding, which won the <span style="color:red">1st Place and Innovation Award</span> in CVPR 2024 Autonomous Grand Challenge ($9000, 1/154 submissions).
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024 (Oral)</div><img src='images/papers/denseg.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024 (Oral)</div><img src='images/papers/denseg.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DenseG: Alleviating Vision-Language Feature Sparsity in Multi-View 3D Visual Grounding**
@@ -211,7 +230,7 @@ Henry Zheng\*, **Hao Shi\***, Yong Xien Chng, Rui Huang, Zanlin Ni, Tianyi Tan, 
 [Code]()
 - **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track (1/64 teams, 1/154 submissions).
 </div>
-</div>
+</div> -->
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/papers/oldm.png' alt="sym" width="100%"></div></div>
@@ -241,7 +260,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 - *2024.06,*  **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track. (<span style="color:red">1/154 submission, $9000</span>) 
 - *2023.11,*  CXMT Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
 - *2023.06,*  Outstanding Bachelor’s Thesis Award, Tianjin University. 
-- *2023.06,*  Outstanding Graduate Award, Tianjin University. 
+<!-- - *2023.06,*  Outstanding Graduate Award, Tianjin University.  -->
 - *2021.12,*  Huawei Intelligent Base Scholarship, Ministry of Education-Huawei Intelligent Base Future Stars. 
 
 
@@ -312,6 +331,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 
 # 💬 Invited Talks
+- *2026.06,*  invited talk about MemoryVLA, [CVPR 2026 MARS Workshop](https://mars-eai.github.io/CVPR-SCI-MARS-Webpage), Denver
 - *2026.01,*  invited talk about SpatialActor, [AAAI 2026 Main Conference](https://aaai.org/conference/aaai/aaai-26), Singapore
 - *2025.09,*  invited talk about MemoryVLA, [3D视觉工坊](https://mp.weixin.qq.com/s/m6aFuOkS-GTIxwEHro56BQ), Online
 - *2025.09,*  invited talk about MemoryVLA, [具身智能之心](https://mp.weixin.qq.com/s/MNapDpvpS2zQ7zGML08rrA), Online
