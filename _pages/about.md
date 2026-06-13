@@ -82,7 +82,7 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 **Hao Shi**, Weiye Li, Bin Xie, Yulin Wang, Renping Zhou, Tiancai Wang, Xiangyu Zhang, Ping Luo, Gao Huang✉
 
 Under Review 2026 |
-[Paper](https://arxiv.org/abs/2606.12217) |
+[Paper](https://arxiv.org/abs/2606.09827) |
 [Code](https://github.com/shihao1895/MemoryVLA) |
 [Homepage](https://shihao1895.github.io/MemoryVLA-PP-Web) |
 [Huggingface](https://huggingface.co/collections/shihao1895/memoryvla)
