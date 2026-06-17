@@ -105,7 +105,7 @@ Under Review 2026 |
 [Homepage](https://rmbench.github.io) |
 [Huggingface](https://huggingface.co/datasets/TianxingChen/RMBench)
 
-- RMBench is a memory-oriented benchmark built on the RoboTwin platform, and it also provides a memory-enhanced hierarchical VLA model, Mem-0.
+- RMBench is a memory-oriented benchmark built on the RoboTwin, and it also provides a memory-enhanced hierarchical VLA model, Mem-0.
 </div>
 </div>
 
@@ -124,7 +124,7 @@ Under Review 2026 |
 [Homepage](https://shihao1895.github.io/MemoryVLA) |
 [Huggingface](https://huggingface.co/collections/shihao1895/memoryvla)
 
-- MemoryVLA is among the early works exploring memory in Vision-Language-Action models. Inspired by human memory systems, it builds a hippocampal-like memory to capture the temporal dependencies. It has since been <span style="color:red">cited over 100 times</span>, including by [Physical Intelligence](https://www.pi.website/).
+- MemoryVLA is among the early works to explore memory in VLA models, introducing a hippocampus-inspired memory to capture temporal dependencies. It has since been <span style="color:red">cited over 100 times</span>, including by [Physical Intelligence](https://www.pi.website/).
 </div>
 </div>
 
@@ -147,10 +147,28 @@ Under Review 2026 |
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2026</div><img src='images/papers/geovla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GeoVLA: Enpowering 3D Representations in Vision-Language-Action Models**
+
+Lin Sun\*, Bin Xie\*, Yingfei Liu, **Hao Shi**, Tiancai Wang, Jiale Cao✉
+
+**IROS 2026** |
+[Paper](https://arxiv.org/abs/2508.09071) |
+[Code](https://github.com/linsun449/GeoVLA) |
+[Homepage](https://linsun449.github.io/GeoVLA)
+
+- GeoVLA is a unified VLA framework that bridges 2D semantics and 3D geometry.
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Findings</div><img src='images/papers/deground.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Grounding Beyond Detection: Enhancing Contextual Understanding in Embodied 3D Grounding**
+**DEGround: An Effective Baseline for Ego-centric 3D Visual Grounding with a Homogeneous Framework**
 
 Yani Zhang\*, Dongming Wu\*, **Hao Shi**, Yingfei Liu, Tiancai Wang, Haoqiang Fan, Xingping Dong✉
 
@@ -176,23 +194,7 @@ Technical Report 2025 |
 [Homepage](https://dexbotic.com) |
 [Huggingface](https://huggingface.co/collections/Dexmal/dexbotic)
 
-- Dexbotic is an open-source VLA codebase (similar to MMDetection). It unifies multiple mainstream VLA frameworks and benchmarks, provides strong pretrained models, and has garnered <span style="color:red">more than 1000 GitHub stars</span>.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2025</div><img src='images/papers/geovla.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**GeoVLA: Enpowering 3D Representations in Vision-Language-Action Models**
-
-Under Review 2025 |
-[Paper](https://arxiv.org/abs/2508.09071) |
-[Code](https://github.com/linsun449/GeoVLA) |
-[Homepage](https://linsun449.github.io/GeoVLA)
-
-Lin Sun\*, Bin Xie\*, Yingfei Liu, **Hao Shi**, Tiancai Wang, Jiale Cao✉
-- GeoVLA is a framework that bridges 2D semantics and 3D geometry for VLA, it achieves robustness across diverse camera views, object heights, and sizes.
+- Dexbotic is an open-source VLA codebase, similar to MMDetection, that unifies mainstream VLA frameworks and benchmarks, provides strong pretrained models, and has received <span style="color:red">1200+ GitHub stars</span>.
 </div>
 </div>
 
@@ -211,7 +213,7 @@ Henry Zheng\*, **Hao Shi\***, Qihang Peng, Yong Xien Chng, Rui Huang, Yepeng Wen
 [Paper](https://arxiv.org/abs/2505.04965) |
 [Code]()
 
-- DenseGrounding is an embodied perception framework for multi-view 3D visual grounding, which won the <span style="color:red">1st Place and Innovation Award</span> in CVPR 2024 Autonomous Grand Challenge ($9000, 1/154 submissions).
+- DenseGrounding is an embodied perception framework for multi-view 3D visual grounding, which won the <span style="color:red">1st Place and Innovation Award</span> in CVPR 2024 Autonomous Grand Challenge ($9000).
 </div>
 </div>
 
@@ -252,6 +254,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 
 # 🎖 Honors and Awards
+- *2026.06,*  3rd Prize in CVPR 2026 ManiSkill-ViTac Challenge
 - *2026.05,*  Beijing Outstanding Graduate Award. (<span style="color:red">Only 1 Master in Dept. Automation, THU</span>)
 - *2026.05,*  ICML Gold Reviewer Award.
 - *2026.01,*  Tsinghua Deng Feng Fund, Tsinghua University. (￥15000)
@@ -341,11 +344,11 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 # 🎓 Service
 Reviewer / PC Member: 
-- ICLR
-- ICML
-- NeurIPS
-- CVPR
-- ICCV
-- AAAI
-- IROS
-- TMLR
+- International Conference on Learning Representations (ICLR)
+- International Conference on Machine Learning (ICML)
+- Annual Conference on Neural Information Processing Systems (NeurIPS)
+- IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
+- IEEE / CVF International Conference on Computer Vision (ICCV)
+- Annual AAAI Conference on Artificial Intelligence (AAAI)
+- IEEE / RSJ International Conference on Intelligent Robots and Systems (IROS)
+- Transactions on Machine Learning Research (TMLR)
