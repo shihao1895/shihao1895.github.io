@@ -59,11 +59,11 @@ a:hover {
 
 <span class='anchor' id='about-me'></span>
 
-My name is **Hao Shi (石昊)**, a Master's student in the Department of Automation at Tsinghua University, in a joint program with MEGVII Research, advised by Prof. [Gao Huang](https://scholar.google.com/citations?user=-P9LwcgAAAAJ) and [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ), and I also work closely with [Tiancai Wang](https://scholar.google.com/citations?user=YI0sRroAAAAJ). 
+My name is **Hao Shi (石昊)**, an incoming Ph.D. student at [HKU MMLab](https://mmlab.hk), where I will be advised by Prof. [Ping Luo](https://scholar.google.com/citations?user=aXdjxb4AAAAJ) starting in Fall 2026.
+
+Previously, I received my Master's degree from Tsinghua University, where I was a member of [Tsinghua Leap Lab](https://www.leaplab.ai) and was advised by Prof. [Gao Huang](https://scholar.google.com/citations?user=-P9LwcgAAAAJ) and Dr. [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ).
 
 My research focuses on **Embodied AI, Robot Learning, VLA, and World Model**, aiming to build foundation models for general robotic systems. 
-
-I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised by Prof. [Ping Luo](https://scholar.google.com/citations?user=aXdjxb4AAAAJ) in Fall 2026.
 
 
 <!-- # 🔥 News
@@ -74,7 +74,12 @@ I am expected to join [HKU MMLab](https://mmlab.hk) as a Ph.D. student advised b
 
 # 📝 Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review 2026</div><img src='images/papers/memoryvla_pp.png' alt="sym" width="100%"></div></div>
+<div class="paper-filter" role="group" aria-label="Filter publications">
+  <button class="paper-filter__button is-active" type="button" data-filter="all">All</button>
+  <button class="paper-filter__button" type="button" data-filter="lead">First / Co-first Author</button>
+</div>
+
+<div class='paper-box paper-box--lead'><div class='paper-box-image'><div><div class="badge">Under Review 2026</div><img src='images/papers/memoryvla_pp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models**
@@ -110,7 +115,7 @@ Under Review 2026 |
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/memoryvla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box paper-box--lead'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/memoryvla.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation**
@@ -129,7 +134,7 @@ Under Review 2026 |
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 (Oral)</div><img src='images/papers/spatial_actor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box paper-box--lead'><div class='paper-box-image'><div><div class="badge">AAAI 2026 (Oral)</div><img src='images/papers/spatial_actor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SpatialActor: Exploring Disentangled Spatial Representations for Robust Robotic Manipulation**
@@ -199,7 +204,7 @@ Technical Report 2025 |
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/papers/densegrounding.png' alt="sym" width="100%"></div></div>
+<div class='paper-box paper-box--lead'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/papers/densegrounding.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DenseGrounding: Improving Dense Language-Vision Semantics for Ego-centric 3D Visual Grounding**
@@ -235,7 +240,7 @@ Henry Zheng\*, **Hao Shi\***, Yong Xien Chng, Rui Huang, Zanlin Ni, Tianyi Tan, 
 </div> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/papers/oldm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box paper-box--lead'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/papers/oldm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Open Compound Domain Adaptation with Object Style Compensation for Semantic Segmentation**
@@ -252,19 +257,42 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 </div>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var buttons = document.querySelectorAll('.paper-filter__button');
+  var papers = document.querySelectorAll('.paper-box');
+
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      var filter = button.getAttribute('data-filter');
+
+      buttons.forEach(function (item) {
+        item.classList.toggle('is-active', item === button);
+      });
+
+      papers.forEach(function (paper) {
+        var shouldShow = filter === 'all' || paper.classList.contains('paper-box--lead');
+        paper.classList.toggle('is-hidden', !shouldShow);
+      });
+    });
+  });
+});
+</script>
+
 
 # 🎖 Honors and Awards
-- *2026.06,*  3rd Prize in CVPR 2026 ManiSkill-ViTac Challenge
-- *2026.05,*  Beijing Outstanding Graduate Award. (<span style="color:red">Only 1 Master in Dept. Automation, THU</span>)
+- *2026.06,*  Tsinghua University Outstanding Master's Thesis Award. (Top 5% in THU)
+- *2026.06,*  Beijing Outstanding Graduate Award. (<span style="color:red">Only 1 Master</span> in Dept. Automation, THU)
+- *2026.06,*  3rd Prize in CVPR 2026 ManiSkill-ViTac Challenge.
 - *2026.05,*  ICML Gold Reviewer Award.
-- *2026.01,*  Tsinghua Deng Feng Fund, Tsinghua University. (￥15000)
-- *2025.11,*  Minghong Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
-- *2024.11,*  Philobiblion Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
+- *2026.01,*  Tsinghua University Deng Feng Fund. (￥15000)
+- *2025.11,*  Minghong Scholarship, Tsinghua University Comprehensive Excellence 1st Prize. (Top 10% in THU, ￥10000) 
+- *2024.11,*  Philobiblion Scholarship, Tsinghua University Comprehensive Excellence 1st Prize. (Top 10% in THU, ￥10000) 
 - *2024.06,*  **1st Place** and **Innovation Award** in CVPR 2024 Autonomous Grand Challenge, Embodied 3D Grounding Track. (<span style="color:red">1/154 submission, $9000</span>) 
-- *2023.11,*  CXMT Scholarship, Comprehensive Excellence 1st Prize, Tsinghua University. (Top 10% in THU, ￥10000) 
-- *2023.06,*  Outstanding Bachelor’s Thesis Award, Tianjin University. 
-<!-- - *2023.06,*  Outstanding Graduate Award, Tianjin University.  -->
-- *2021.12,*  Huawei Intelligent Base Scholarship, Ministry of Education-Huawei Intelligent Base Future Stars. 
+- *2023.11,*  CXMT Scholarship, Tsinghua University Comprehensive Excellence 1st Prize. (Top 10% in THU, ￥10000) 
+- *2023.06,*  Tianjin University Outstanding Bachelor’s Thesis Award. 
+<!-- - *2023.06,*  Tianjin University Outstanding Graduate Award.  -->
+- *2021.12,*  Huawei Intelligent Base Scholarship, Ministry of Education-Huawei Intelligent Base Future Star. 
 
 
 # 📖 Education
@@ -280,7 +308,7 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 <div class="edu">
   <img src="images/thu_logo.png" alt="Tsinghua University">
   <div>
-    <strong>2023.09 – 2026.06 (expected)</strong><br>
+    <strong>2023.09 – 2026.06</strong><br>
     M.Eng. @ <a href="https://www.leaplab.ai">LeapLab</a>, Tsinghua University, Beijing.<br>
     Advisors: Prof. <a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ">Gao Huang</a> and Dr. <a href="https://scholar.google.com/citations?user=yuB-cfoAAAAJ">Xiangyu Zhang</a><br>
   </div>
@@ -344,11 +372,5 @@ Tingliang Feng\*, **Hao Shi\***, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, 
 
 # 🎓 Service
 Reviewer / PC Member: 
-- International Conference on Learning Representations (ICLR)
-- International Conference on Machine Learning (ICML)
-- Annual Conference on Neural Information Processing Systems (NeurIPS)
-- IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
-- IEEE / CVF International Conference on Computer Vision (ICCV)
-- Annual AAAI Conference on Artificial Intelligence (AAAI)
-- IEEE / RSJ International Conference on Intelligent Robots and Systems (IROS)
-- Transactions on Machine Learning Research (TMLR)
+
+- ICML (Gold Reviewer Award), ICLR, NeurIPS, CVPR, ICCV, AAAI, IROS, TMLR
