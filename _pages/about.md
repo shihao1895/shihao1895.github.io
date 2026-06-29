@@ -373,4 +373,4 @@ document.addEventListener('DOMContentLoaded', function () {
 # 🎓 Service
 Reviewer / PC Member: 
 
-- ICML (Gold Reviewer Award), ICLR, NeurIPS, CVPR, ICCV, AAAI, IROS, TMLR
+- ICML, ICLR, NeurIPS, CVPR, ICCV, AAAI, IROS, TMLR
